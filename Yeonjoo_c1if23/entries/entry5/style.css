@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@800&display=swap');
+.webpage-title {
+  font-family: 'WindSong', cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bold-heading {
+  font-weight: bold;
+  font-family: 'Life Savers', serif;
+  font-size: 38px;
+  text-align: right;
+}
+
+.explanation {
+  font-family: 'Life Savers', serif;
+  font-size: 20px;
+}
+
+.item {
+  margin-right: 10px; 
+}
+.container2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .explanation2 {
+    font-family: 'Life Savers', serif;
+  
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .image2 {
+    margin-left: 10px;
+  }
+  
+  .bold-heading2 {
+    font-weight: bold;
+    font-family: 'Life Savers', serif;
+  font-size: 38px;
+  }
+
+  .leaves-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wuthering-heights-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .summary-container {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Life Savers', serif;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+  .link-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Life Savers', serif;
+  font-size: 37px;
+  }
+
+  body {
+    background-color: rgb(243, 220, 227);
+  }
+
+  .text-container {
+    text-align: center;
+    font-family: 'Courier', sans-serif;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #000000
+    
+}
