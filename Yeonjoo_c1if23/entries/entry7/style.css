@@ -1,0 +1,218 @@
+@import url("https://use.typekit.net/mvp4hjs.css");
+@import url("https://use.typekit.net/mvp4hjs.css");
+@import url("https://p.typekit.net/p.css?s=1&k=mvp4hjs&ht=tk&f=34208.34209.34210.34211.47745.49303.49307.49308.49312.49315.49316.49318.49319.49321.49328.49330.49334.49336.49340.49341&a=129705008&app=typekit&e=css");
+@import url("https://use.typekit.net/vuj0jls.css");
+@import url("https://use.typekit.net/xux2bgn.css");
+@import url("https://use.typekit.net/esc1efa.css");
+.container {
+    position: relative;
+    
+
+}
+
+.centered,
+.bottom-left,
+.top-left,
+.top-right,
+.bottom-right {
+    position: absolute;
+    
+    padding: 10px; /* Optional padding for the text */
+}
+
+.centered {
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    font-family: "scotch-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1.6;
+}
+.normal-text {
+    font-size: 40px; /* Adjust the font size for the normal text */
+}
+
+.bigger-text {
+    font-size: 60px; /* Adjust the font size for "and poetry" to make it bigger */
+}
+.poem-container{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+margin-top: 0%; }
+.headline {
+
+
+    color: rgb(0, 0, 0);
+    font-family: "scotch-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    line-height: 1.6;
+    align-items: center;
+    text-align: center;
+    margin-top: 34%;
+    
+}
+
+.subheadline {
+
+
+    color: rgb(0, 0, 0);
+    font-family: "scotch-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.6;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+    
+}
+
+.text-container {
+    display: flex;
+}
+
+.left-text, .right-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-text {
+    text-align: left;
+    font-family: "scotch-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+font-size: 23px;
+
+}
+
+.right-text {
+    text-align: right;
+}
+
+.right-poem{ text-align: left; /* Adjust as needed for left-aligned text */
+    padding: 20px;
+    background-color: #ffffff; /* Background color for the container */
+    border: 1px solid #ccc; /* Add a border if desired */
+    font-family: "apparat-light", sans-serif;
+font-weight: 300;
+font-style: normal;
+    margin: 10px; }
+
+body {
+    background: bisque;
+
+
+}
+
+.fade-img {
+    position: relative;
+}
+
+.fade-img:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(255, 228, 196, 0) 0%, bisque 100%);
+    height: 40%;
+}
+
+
+
+.image-with-fade {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+.fade-edge {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(to top, transparent, black);
+    mask-mode: alpha;
+}
+
+
+.explanation {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    margin-top: 55%; /* Adjust this value to control the margin-top */
+}
+
+.vector {
+    position: absolute;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color:bisque;
+    padding: 20px;
+    border: 1px solid #000000;
+    align-items: center;
+    font-family: "shelby", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 28px;
+}
+
+.explanation2 {
+    display: flex;
+    
+    margin-top: 18%; /* Adjust this value to control the margin-top */
+    align-items: center;
+}
