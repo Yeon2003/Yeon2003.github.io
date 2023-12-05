@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body {
+   
+    background-color: rgb(240, 219, 176);
+  }
+
+.black-heading {
+  font-family: 'Black Ops One', cursive, sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #000000;
+  margin: 0; 
+}
+
+.verdana {
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 20px;
+  }
+  p {
+    font-family: 'Courier', Courier, monospace;
+    margin-left: 20px; 
+    font-size: 20px;
+}
+.graph-container {
+  width: 50%; /* You can adjust the percentage as needed */
+  height: auto; /* Maintain the aspect ratio */
+  float: left; /* Float the image to the left */
+  margin-right: 20px;
+}
+
+.history-container {
+  width: 20%; /* You can adjust the percentage as needed */
+  height: auto; /* Maintain the aspect ratio */
+  float: right; /* Float the image to the right */
+  margin-left: 5px;
+}
+.text-container {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: rgb(240, 219, 176);
+  }
+  .black-heading {
+    font-family: 'Black Ops One', cursive, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    margin: 0; 
+  }
+  .verdana {
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 13px;
+  }
+  p {
+    font-family: 'Courier', Courier, monospace;
+    margin-left: 20px; 
+    font-size: 13px;
+}
+.text-container {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+}
+}
