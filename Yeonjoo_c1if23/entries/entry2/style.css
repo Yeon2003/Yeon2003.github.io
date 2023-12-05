@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+@font-face {
+    font-family: 'Glegoo';
+    src: local('Glegoo-Regular'), local('Glegoo-Bold'),
+         url('../fonts/Glegoo-Regular.ttf') format('truetype');
+        }
+        @font-face {
+          font-family: 'Gloria Hallelujah';
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: url(https://fonts.gstatic.com/s/gloriahallelujah/v21/LYjYdHv3kUk9BMV96EIswT9DIbW-MIS11zOmvVCE.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        @font-face {
+          font-family: 'Calligraffitti';
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: url(https://fonts.gstatic.com/s/calligraffitti/v19/46k2lbT3XjDVqJw3DCmCFjE0vkFeOZdjppN_.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+      
+
+.flipped {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 13rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #F9f1cc;
+  text-shadow: 5px 5px 0px #FFB650, 
+    10px 10px 0px #FFD662, 
+    15px 15px 0px  #FF80BF, 
+    20px 20px 0px #EF5097, 
+    25px 25px 0px #6868AC, 
+    30px 30px 0px #90B1E0;
+    margin-bottom: 200px; 
+}
+
+
+
+.blue-heading {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #90B1E0;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  
+  .pink-heading {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(240, 138, 155);
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+body {
+    background: #f1e192;
+    font-family: 'Gloria Hallelujah', cursive; 
+  }
+  .medium-party-image {
+    max-width: 600px; 
+    height: auto; 
+  }
+
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .overlay-container {
+    position: relative;
+    margin-bottom: 20px; 
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 18%; 
+    left: 50%;
+    transform: translateX(-50%) rotate(-6deg); 
+    background: transparent; 
+    padding: 10px;
+    text-align: center;
+    max-width: 80%;
+    line-height: 2.5; 
+  }
+
+  
+  .horizontal-container {
+    display: flex;
+    align-items: center; 
+  }
+
+  
+  .postit-image {
+    width: 800px; 
+    height: auto; 
+  }
+
+  
+  .overlay-text {
+    margin-left: 20px; 
+  }
+
+  
+  .memo-image {
+    width: auto; 
+    transform: rotate(6deg); 
+    position: relative; 
+    transform-origin: top left; 
+  }
+
+  
+  .memo-text {
+    position: absolute;
+    top: 32%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: transparent; 
+    text-align: center;
+    max-width: 80%;
+    line-height: 2.5; 
+    z-index: 1; 
+  }
+
+
+  .small-party-image {
+    width: 400px; 
+    height: auto; 
+  }
+  
+  .Review {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 10rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #F9f1cc;
+    text-shadow: 5px 5px 0px #FFB650, 
+      10px 10px 0px #FFD662, 
+      15px 15px 0px  #FF80BF, 
+      20px 20px 0px #EF5097, 
+      25px 25px 0px #6868AC, 
+      30px 30px 0px #90B1E0;
+      margin-bottom: 20px; 
+      margin-top: 60px;
+  }
+
+  .text-container {
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #6868AC
+    
+}
+
