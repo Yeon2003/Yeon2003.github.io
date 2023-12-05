@@ -1,0 +1,34 @@
+.container {
+    margin: 2rem auto;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted minmax value for book size */
+    grid-auto-rows: minmax(300px, auto); /* Adjusted minmax value for book size */
+  }
+  
+  .gallery-item {
+    max-width: 200px; /* Adjusted max-width value for book size */
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+  }
+  
+  .gallery-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire content box */
+    border-radius: 5px;
+  
+
+  }
+  
+  
